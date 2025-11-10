@@ -18,6 +18,8 @@ This project uses a **Dev Container** (via **VS Code**) and **[`uv`](https://git
 
    This will build the container if needed and connect you to the development environment.
 
+### Setting up the Template
+
 ### Dependency Management
 
 This project uses **[`uv`](https://github.com/astral-sh/uv)** for dependency management.

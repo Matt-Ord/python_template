@@ -3,7 +3,7 @@ name = "my_project"
 version = "0.0.1"
 description = "An example Python Package"
 readme = "README.md"
-requires-python = ">=3.13,<3.14"
+requires-python = ">=3.14,<3.15"
 dependencies = []
 
 [dependency-groups]
@@ -61,9 +61,6 @@ allow-dunder-method-names = [
 
 [tool.ruff.lint.pydocstyle]
 convention = "numpy"
-
-[tool.ruff.lint.isort]
-required-imports = ["from __future__ import annotations"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
