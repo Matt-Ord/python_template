@@ -1,6 +1,3 @@
-from __future__ import annotations
-
-
 def test_import() -> None:
     try:
         import my_project  # noqa: PLC0415

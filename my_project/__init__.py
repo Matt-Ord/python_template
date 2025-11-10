@@ -1,6 +1,4 @@
-"""An Exapmple project."""
-
-from __future__ import annotations
+"""An Example project."""
 
 PYTHON_IS_COOL = True
 """A statement about Python."""
