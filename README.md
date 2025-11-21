@@ -41,17 +41,33 @@ uv add --dev <package-name>
 ```
 
 This adds the package to `pyproject.toml` and updates the lockfile,
-where `--dev` adds it to the development dependencies.
-
-To install dependencies, run:
+where `--dev` adds it to the development dependencies. To install
+these dependencies, use:
 
 ```bash
+# All dependencies
 uv sync --all-extras
+# Exclude dev dependencies
+uv sync
 ```
 
-### Spell checker
+### Spell checker, Linter, Type Checker and Test Runner
 
-This project uses the **Code Spell Checker** extension for VS Code.
+This project sets up tools for spell checking, linting, type checking, and testing,
+which are automatically run in Github Actions on push and pull requests.
+To run these tools locally, use the following commands:
+
+```bash
+# Linting and formatting
+ruff check .
+# Type checking
+pyright
+# Testing
+pytest
+# Spell checking
+cspell .
+```
+
 To add words to the spell checker's dictionary,
 add them to the `.vscode/cspell.json` file under
 the `words` or `ignoreWords` section.
