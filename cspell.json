@@ -7,7 +7,6 @@
         "Phonopy",
         "Wannier",
         "pytest",
-        "pyright",
         "pydata",
         "pylint",
         "pydocstyle",

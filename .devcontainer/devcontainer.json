@@ -2,7 +2,7 @@
 	"name": "Debian",
 	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
+		"ghcr.io/devcontainers/features/node:2": {
 			"version": "lts"
 		},
 		"ghcr.io/va-h/devcontainers-features/uv:1": {
@@ -30,14 +30,12 @@
 				],
 				"python.testing.unittestEnabled": false,
 				"python.testing.pytestEnabled": true,
-				"python.analysis.diagnosticMode": "openFilesOnly",
+				"python.analysis.diagnosticMode": "workspace",
 				"python.analysis.include": [
 					"my_project"
 				],
 				"python.analysis.autoImportCompletions": true,
-				"ty.diagnosticMode": "workspace",
-				"ty.experimental.rename": true,
-				"ty.experimental.autoImport": true
+				"ty.diagnosticMode": "workspace"
 			},
 			"extensions": [
 				"donjayamanne.python-extension-pack",

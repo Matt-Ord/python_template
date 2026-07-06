@@ -61,7 +61,7 @@ To run these tools locally, use the following commands:
 # Linting and formatting
 ruff check .
 # Type checking
-pyright
+ty check .
 # Testing
 pytest
 # Spell checking
